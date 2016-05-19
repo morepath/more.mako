@@ -27,11 +27,11 @@ tests_require = [
     'pytest',
     'coverage',
     'pytest-cov',
-    'WebTest'
+    'webtest'
     ]
 
 docs_require = [
-    'Sphinx',
+    'sphinx',
     'docutils'
     ]
 
@@ -42,7 +42,7 @@ setup(
     url='https://github.com/blaflamme/more.mako',
     license='BSD',
     author='Blaise Laflamme',
-    author_email='blaflamme@kemeneur.com',
+    author_email='blaise@laflamme.org',
     description='Mako template bindings for Morepath',
     long_description=long_description,
     keywords='morepath mako',
