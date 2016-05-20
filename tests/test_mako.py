@@ -5,7 +5,8 @@ from .fixtures import (
     template,
     template_inheritance,
     template_override,
-    template_inheritance_override
+    template_inheritance_override,
+    defs
     )
 
 
@@ -86,3 +87,12 @@ def test_template_inheritance_override():
 </div>
 </body>
 </html>\n'''
+
+
+def test_defs():
+    c = Client(defs.App())
+
+    response = c.get('/')
+    print(response.body)
+    assert response.body == b'''\
+\n<p>Hello world!</p>\n'''
