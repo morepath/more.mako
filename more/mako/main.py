@@ -28,10 +28,18 @@ def get_mako_loader(template_directories, settings):
 
 @MakoApp.template_render(extension='.mako')
 def get_mako_render(loader, name, original_render):
-    template = loader.get_template(name)
+    defname = None
+    tmpl, ext = name.rsplit('.', 1)
+    if '#' in tmpl:
+        tmpl, defname = tmpl.rsplit('#', 1)
+    tmpl_name = '%s.%s' % (tmpl, ext)
+    template = loader.get_template(tmpl_name)
 
     def render(content, request):
         variables = {'request': request}
         variables.update(content)
-        return original_render(template.render(**variables), request)
+        tmpl = template
+        if defname is not None:
+            tmpl = tmpl.get_def(defname)
+        return original_render(tmpl.render(**variables), request)
     return render
