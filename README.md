@@ -41,7 +41,7 @@ You can also render defs from templates using the special syntax
 ```python
 @App.html(model=Root, template='defs#hello.mako')
 def hello():
-    return {'name'; 'World'}
+    return {'name': 'World'}
 ```
 
 and then in `defs.mako`:
