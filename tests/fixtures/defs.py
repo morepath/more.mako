@@ -17,7 +17,7 @@ def get_template_dir():
 
 
 @App.html(model=Root, template='defs#hello.mako')
-def person_default(self, request):
+def root(self, request):
     return {'name': 'world'}
 
 
