@@ -35,6 +35,23 @@ and then in `person.mako` in the `templates` subdirectory:
 </html>
 ```
 
+You can also render defs from templates using the special syntax
+`template#defname.mako` like the following example:
+
+```python
+@App.html(model=Root, template='defs#hello.mako')
+def hello():
+    return {'name'; 'World'}
+```
+
+and then in `defs.mako`:
+
+```html
+<%def name="hello(name)">
+<p>Hello ${name}!</p>
+</%def>
+```
+
 Note that the Mako documentation uses the `.html` extension for
 Mako templates, whereas this extension uses `.mako` instead.
 
