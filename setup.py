@@ -39,7 +39,7 @@ docs_require = [
 setup(
     name='more.mako',
     version=version,
-    url='https://github.com/blaflamme/more.mako',
+    url='https://github.com/morepath/more.mako',
     license='BSD',
     author='Blaise Laflamme',
     author_email='blaise@laflamme.org',
