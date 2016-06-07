@@ -11,6 +11,7 @@
 /.Python
 /PYSMELLTAGS*
 __pycache__
+/htmlcov
 
 /env
 /bin
