@@ -1,4 +1,3 @@
-import morepath
 from webtest import TestApp as Client
 
 from .fixtures import (
@@ -8,10 +7,6 @@ from .fixtures import (
     template_inheritance_override,
     defs
     )
-
-
-def setup_module(module):
-    morepath.disable_implicit()
 
 
 def test_template():
