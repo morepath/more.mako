@@ -11,7 +11,7 @@ from setuptools import (
     )
 
 
-version = '0.1.0'
+version = '0.2.0.dev0'
 
 long_description = '\n'.join((
     io.open('README.md', encoding='utf-8').read(),
@@ -47,15 +47,13 @@ setup(
     long_description=long_description,
     keywords='morepath mako',
     classifiers=[
-        'Development Status :: 4 - Beta',
-        'Environment :: Web Environment',
-        'Framework :: Morepath',
-        'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Topic :: Internet :: WWW/HTTP',
-        'Topic :: Software Development :: Libraries :: Python Modules'
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5'
         ],
     namespace_packages=['more'],
     packages=find_packages(),
