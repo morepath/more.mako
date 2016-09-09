@@ -11,7 +11,7 @@ from setuptools import (
     )
 
 
-version = '0.1.0.dev0'
+version = '0.1.0'
 
 long_description = '\n'.join((
     io.open('README.md', encoding='utf-8').read(),
