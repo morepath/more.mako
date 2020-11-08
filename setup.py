@@ -4,7 +4,6 @@ more.mako
 Mako template bindings for Morepath.
 """
 
-import io
 from setuptools import (
     setup,
     find_packages
@@ -14,8 +13,8 @@ from setuptools import (
 version = '0.2.0.dev0'
 
 long_description = '\n'.join((
-    io.open('README.md', encoding='utf-8').read(),
-    io.open('CHANGES', encoding='utf-8').read()
+    open('README.md', encoding='utf-8').read(),
+    open('CHANGES', encoding='utf-8').read()
     ))
 
 install_requires = [
@@ -48,12 +47,11 @@ setup(
     keywords='morepath mako',
     classifiers=[
         'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5'
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9'
         ],
     namespace_packages=['more'],
     packages=find_packages(),
