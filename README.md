@@ -1,3 +1,19 @@
+[![CI Status][]][1]
+
+[![image][]][2]
+
+[![image][3]][4]
+
+[![image][5]][4]
+
+  [CI Status]: https://github.com/morepath/morepath_sqlalchemy/workflows/CI/badge.svg?branch=master
+  [1]: https://github.com/morepath/morepath_sqlalchemy/actions?workflow=CI
+  [image]: https://coveralls.io/repos/github/morepath/morepath_sqlalchemy/badge.svg?branch=master
+  [2]: https://coveralls.io/github/morepath/morepath_sqlalchemy?branch=master
+  [3]: https://img.shields.io/pypi/v/morepath_sqlalchemy.svg
+  [4]: https://pypi.org/project/morepath_sqlalchemy/
+  [5]: https://img.shields.io/pypi/pyversions/morepath_sqlalchemy.svg
+
 # more.mako
 
 `more.mako` is an extension for [Morepath](http://morepath.readthedocs.io) that adds [Mako](http://makotemplates.org)
