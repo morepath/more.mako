@@ -1,10 +1,4 @@
-[![CI Status][]][1]
-
-[![image][]][2]
-
-[![image][3]][4]
-
-[![image][5]][4]
+[![CI Status][]][1] [![image][]][2] [![image][3]][4] [![image][5]][4]
 
   [CI Status]: https://github.com/morepath/morepath_sqlalchemy/workflows/CI/badge.svg?branch=master
   [1]: https://github.com/morepath/morepath_sqlalchemy/actions?workflow=CI
