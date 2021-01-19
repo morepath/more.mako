@@ -1,12 +1,12 @@
 [![CI Status][]][1] [![image][]][2] [![image][3]][4] [![image][5]][4]
 
-  [CI Status]: https://github.com/morepath/morepath_sqlalchemy/workflows/CI/badge.svg?branch=master
-  [1]: https://github.com/morepath/morepath_sqlalchemy/actions?workflow=CI
-  [image]: https://coveralls.io/repos/github/morepath/morepath_sqlalchemy/badge.svg?branch=master
-  [2]: https://coveralls.io/github/morepath/morepath_sqlalchemy?branch=master
-  [3]: https://img.shields.io/pypi/v/morepath_sqlalchemy.svg
-  [4]: https://pypi.org/project/morepath_sqlalchemy/
-  [5]: https://img.shields.io/pypi/pyversions/morepath_sqlalchemy.svg
+  [CI Status]: https://github.com/morepath/more.mako/workflows/CI/badge.svg?branch=master
+  [1]: https://github.com/morepath/more.mako/actions?workflow=CI
+  [image]: https://coveralls.io/repos/github/morepath/more.mako/badge.svg?branch=master
+  [2]: https://coveralls.io/github/morepath/more.mako?branch=master
+  [3]: https://img.shields.io/pypi/v/more.mako.svg
+  [4]: https://pypi.org/project/more.mako/
+  [5]: https://img.shields.io/pypi/pyversions/more.mako.svg
 
 # more.mako
 
