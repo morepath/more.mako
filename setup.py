@@ -6,7 +6,6 @@ Mako template bindings for Morepath.
 
 from setuptools import setup, find_packages
 
-
 version = "0.2.0.dev0"
 
 long_description = "\n".join(
